@@ -1,6 +1,6 @@
 """
-RadioPlayerV2, Telegram Voice Chat Bot
-Copyright (C) 2021  Asm Safone <https://t.me/AsmSafone>
+RadioPlayerV, Telegram Voice Chat Bot
+Copyright (C) 2021  XDacchuX <https://t.me/Kannadacrazychatters>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -48,7 +48,7 @@ bot.run(main())
 bot.start()
 @bot.on_message(filters.command("restart") & filters.user(Config.ADMINS))
 def restart(client, message):
-    message.reply_text("🔄 **Restarting... Join @AsmSafone!**")
+    message.reply_text("🔄 **Restarting... Join @KannadaCrazychatters!**")
     Thread(
         target=stop_and_restart
         ).start()
